@@ -191,3 +191,23 @@ footer p {
 footer {
   padding-top: 30px;
 }
+
+.features {
+  display: flex;
+}
+
+.feature {
+  flex: auto;
+}
+
+@media (max-width: 1000px) {
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    flex: auto;
+    width: 50%;
+  }
+}
